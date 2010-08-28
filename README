@@ -1,0 +1,15 @@
+Parser http://mkrf.ru/activity/register/search/ for project OpenGovData.ru
+
+The program works in scrapy framework (scrapy.org).
+In order to run parser, type ./scrapy-ctl.py runspider fas/spiders/register.py
+
+Parsed data is separated into two archives:
+- films.csv.tar.bz2 Catalog of films;
+- licenses.csv.tar.bz2 Catalog of licenses.
+
+Current statistics:
+- 55231 films;
+- 66591 licenses.
+
+Author: Viktor Mireyev
+License: Creative Commons Attribution 3.0 Unported License
